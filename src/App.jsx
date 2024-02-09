@@ -3,14 +3,14 @@ import './index.css';
 
 // Array of phrases to be displayed when the "NO" button is clicked
 const phrases = [
-  "NIE",
-  "Na pewno?",
-  "Ej😢",
-  "Będzie mi smutno😕",
-  "Pleaseee🥺",
-  "Nie rób mi tego",
-  "Łamiesz mi serceeee",
-  "ŁEEEEEEEEEEEEEEEEEEEEEEEEEEEE    ",
+  "No?",
+  "Please?",
+  "Wala kang awa😢",
+  "Kahit may dalawang kiss?😕",
+  "Osige apat na kiss?",
+  "Unli kiss? 🥺",
+  "EDI WAG",
+  "Joke haha (Paki click na ang yes)",
 ]
 
 function App() {
@@ -38,18 +38,18 @@ function App() {
       {yesPressed ? (  // Display content after clicking the "YES" button
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="bear-Kissing" />
-          <div className='text'>Dobra odpowiedź!</div>
+          <div className='text'>Kiss na maraming marami!</div>
         </>
       ) : ( // Display content before clicking the "YES" button
         <>
           <img className='kiss' src="https://i.pinimg.com/originals/73/89/aa/7389aaa2a73b071ee7d3d782310e590b.gif" alt="bear with heart" />
-          <div className='text'>Będziesz moją walentynką 🌹?</div>
+          <div className='text'>Will you be my valentine love 🌹?</div>
           <div className='both-Button'>
             <button className='yesButton'
             style={{ fontSize: yesButtonSize , backgroundColor:'rgb(248, 229, 89)'}}
               onClick={handleYesClick}
             >
-              TAK
+              Yes!!!
             </button>
             <button
               className='NoButton'
